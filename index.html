@@ -20,6 +20,21 @@
     <div class="container">
       <div class="weather-app-wrapper">
         <div class="weather-app">
+            <form id="current-Location-Form" class="mb-3">
+              <div class="row">
+              <div class="col-9">
+                <h1 class="appTitle">Weather Forecast</h1>
+              </div>
+              <div class="col-3 locationClick">
+                <input
+                  type="submit"
+                  class="currentLocation btn btn-primary w-100"
+                  id="locationButton"
+                  value="Location"
+                />
+                </div>
+              </div>
+              </form>
           <form id="search-form" class="mb-3">
             <div class="row">
               <div class="col-9">
@@ -38,8 +53,10 @@
                   class="btn btn-primary w-100"
                 />
               </div>
+               </form>
+            
             </div>
-          </form>
+         
           <div class="overview">
             <h1 id="city"></h1>
             <ul>
